@@ -23,6 +23,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'natebosch/vim-lsc-dart'
     Plug 'SirVer/Ultisnips'
     Plug 'natebosch/dartlang-snippets'
+    " Status Line
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
     
 call plug#end()
 
