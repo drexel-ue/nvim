@@ -32,6 +32,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " FZF
     Plug 'junegunn/fzf.vim'
     Plug 'airblade/vim-rooter'
+    " Colorizer
+    Plug 'norcalli/nvim-colorizer.lua'
+    Plug 'junegunn/rainbow_parentheses.vim'
     
 call plug#end()
 
