@@ -8,3 +8,4 @@ source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/fzf.vim
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
 source $HOME/.config/nvim/plug-config/rainbow-parentheses.vim
+source $HOME/.config/nvim/plug-config/start-screen.vim
