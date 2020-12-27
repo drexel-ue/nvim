@@ -37,6 +37,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/rainbow_parentheses.vim'
     " Startify
     Plug 'mhinz/vim-startify'
+    Plug 'mhinz/vim-signify'
+    " Git
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+    Plug 'junegunn/gv.vim'
     
 call plug#end()
 
