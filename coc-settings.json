@@ -15,9 +15,9 @@
   "python.linting.pylintEnabled": true,
   "snippets.ultisnips.directories": [
     "UltiSnips",
-    "~/.config/nvim/utils/snips"
+    "~/.config/nvim/snips"
   ],
-  "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
+  // "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
   // explorer
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
