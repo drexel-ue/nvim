@@ -1,0 +1,65 @@
+snippet stless "Create a StatelessWidget" b
+class ${1:widgetName} extends StatelessWidget {
+	const $1({Key key}) : super(key: key);
+
+	@override
+	Widget build(BuildContext context) {
+		$0
+	}
+}
+endsnippet
+
+snippet stful "Create a StatefulWidget" b
+class ${1:widgetName} extends StatefulWidget {
+	const $1({Key key}) : super(Key key);
+
+	@override
+	_$1State createState() => _$1State();
+}
+
+class _$1State extends State<$1> {
+	@override
+	Widget build(BuildContext context) {
+		$0
+	}
+}
+endsnippet
+
+snippet inits "Write initState method" b
+@override
+void initState() {
+	super.initState();
+	$0
+}
+endsnippet
+
+snippet dis "Write dispose method" b
+@override
+void dispose() {
+	$0
+	super.dispose();
+}
+endsnippet
+
+snippet didchdep "Write didChangeDependencies method" b
+@override
+void didChangeDependencies() {
+	$0
+	super.didChangeDependencies();
+}
+endsnippet
+
+snippet didupdate "Write didUpdateWidget method" b
+@override
+void didUpdateWidget(covariant ${1:T} oldWidget) {
+	$0
+}
+endsnippet
+
+snippet didchapp "Write didChangeAppLifecycleState method" b
+@override
+void didChangeAppLifecycleState(AppLifecycleState state) {
+	$0
+}
+endsnippet
+

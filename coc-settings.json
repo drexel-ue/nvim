@@ -17,6 +17,7 @@
     "UltiSnips",
     "~/.config/nvim/utils/snips"
   ],
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
   // explorer
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
