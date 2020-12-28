@@ -29,5 +29,7 @@
       "open"
     ],
     "v": "open:vsplit"
-  }
+  },
+  // flutter config
+  "flutter.runDevToolsAtStartup": true
 }
