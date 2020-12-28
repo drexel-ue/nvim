@@ -47,6 +47,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'justinmk/vim-sneak'
     " Which Key
     Plug 'liuchengxu/vim-which-key'
+    " Floaterm
+    Plug 'voldikss/vim-floaterm'
     
 call plug#end()
 
