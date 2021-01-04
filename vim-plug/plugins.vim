@@ -50,6 +50,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'liuchengxu/vim-which-key'
     " Floaterm
     Plug 'voldikss/vim-floaterm'
+    " Solidity
+    Plug 'tomlion/vim-solidity'
     
 call plug#end()
 
