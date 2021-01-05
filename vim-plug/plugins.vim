@@ -52,6 +52,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'voldikss/vim-floaterm'
     " Solidity
     Plug 'tomlion/vim-solidity'
+    " Treesitter
+    Plug 'nvim-treesitter/nvim-treesitter'
     
 call plug#end()
 

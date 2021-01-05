@@ -31,5 +31,9 @@
     "v": "open:vsplit"
   },
   // flutter config
-  "flutter.runDevToolsAtStartup": true
+  "flutter.runDevToolsAtStartup": true,
+  // codelens
+  "codeLens.enable": true,
+  "java.referencesCodeLens.enabled": true,
+  "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok.jar"
 }
