@@ -54,6 +54,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tomlion/vim-solidity'
     " Treesitter
     Plug 'nvim-treesitter/nvim-treesitter'
+    " Debugger
+    Plug 'puremourning/vimspector'
+    Plug 'szw/vim-maximizer'
     
 call plug#end()
 
